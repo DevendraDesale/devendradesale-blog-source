@@ -1,3 +1,4 @@
 baseURL = 'https://devendradesale.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Devendra Desale's Blog"
+theme= 'PaperMod'
