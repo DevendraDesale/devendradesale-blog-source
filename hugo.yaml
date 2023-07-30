@@ -1,0 +1,34 @@
+baseURL: https://devendradesale.github.io/
+languageCode: en-us
+title: Devendra Desale's Blog
+theme: PaperMod
+contentDir: content
+params:
+  cover:
+    linkFullImages: true
+  showReadingTime: true
+
+menu:
+  main:
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20  
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 25
+    - identifier: About
+      name: About
+      url: /about/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
